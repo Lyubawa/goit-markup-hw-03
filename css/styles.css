@@ -31,7 +31,7 @@ img {
         margin: 0 auto;
     }
 
-.visually-hidden {
+.visually-hidden{
     position: absolute;
     width: 1px;
     height: 1px;
@@ -203,6 +203,7 @@ font-style: normal;
 }
 .team-list-item{
     background-color: #FFFFFF;
+    border-radius: 0px 0px 4px 4px;
 }
 .main-title-team{
            font-size: 36px;
@@ -226,6 +227,7 @@ font-style: normal;
         letter-spacing: 0.02em;
         text-align: center;
         color: #2E2F42;
+        margin-bottom: 8px;
 }
 .team-list-text{
             font-size: 16px;
@@ -261,6 +263,7 @@ font-style: normal;
         letter-spacing: 0.02em;
         text-align: left;
         color: #2E2F42;
+        margin-bottom: 8px;
 }
 .portfolio-list-text{
             font-size: 16px;
