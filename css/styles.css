@@ -55,8 +55,8 @@ body{
     justify-content: space-between;
     padding-top: 24px;
     padding-bottom: 24px;
-    border-bottom: 1px solid #E7E9FC;
-}
+    align-items: center;
+    }
 .page-navigation{
 display: flex;
 }
@@ -64,6 +64,7 @@ display: flex;
 padding: 24px 0;
 margin-left: 156px;
 margin-right: 156px;
+border-bottom: 1px solid #E7E9FC;
 }
 .navigation-container{
     display: flex;
@@ -112,7 +113,7 @@ display: flex;
 .page-address{
 font-style: normal;
 }
-.address-list-item{
+.address-list{
     margin-left: 40px;
 }
 .address-list-link{
