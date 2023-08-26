@@ -62,6 +62,7 @@ display: flex;
 .page-header-container{
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 .logotype-item-container{
     display: flex;
@@ -98,6 +99,7 @@ gap: 40px;
         text-align: left;
         color: #2E2F42;
         padding: 24px 0;
+        display: block;
                 }
 .logotype-list-link:hover,
 .logotype-list-link:focus{
@@ -133,7 +135,7 @@ font-style: normal;
         letter-spacing: 0.02em;
         text-align: center;
         color:#FFFFFF;
-                margin: 0 auto;
+                margin: 0 auto 48px;
                 max-width: 496px;
         }
 .order-service-btn{
@@ -141,11 +143,9 @@ font-style: normal;
         font-weight: 500;
         line-height: 1.5;
         letter-spacing: 0.04em;
-        text-align: left;
-        color: #FFFFFF;
+                color: #FFFFFF;
         background-color: #4D5AE5;
-        margin-top: 48px;
-        text-align: center;
+                text-align: center;
         display: block;
         margin: 0 auto;
         min-width: 169px;
